@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         Slitherify
-// @version      0.1
 // @description  Some enhancements for slither.io game.
+// @match        *://*.slither.io/*
+// @match        *://*.slither.com/*
+// @version      0.2
 // @author       dermv
-// @match        http://slither.com/io
-// @grant        GM_addStyle
-// @noframes
-// @downloadURL
-// @updateURL
+// @homepageURL  https://github.com/dermv/slitherify
+// @downloadURL  https://raw.githubusercontent.com/dermv/slitherify/main/main.js
+// @updateURL    https://raw.githubusercontent.com/dermv/slitherify/main/main.js
 // ==/UserScript==
 
 
@@ -177,7 +177,7 @@ const pingHandler = () => {
 const getFps = fpsHandler();
 const getPing = pingHandler();
 
-let oef_ = unsafeWindow.oef;
+const oef_ = unsafeWindow.oef;
 let lastOefUpdate = performance.now();
 unsafeWindow.oef = () => {
   oef_();
