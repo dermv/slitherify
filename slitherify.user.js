@@ -6,8 +6,8 @@
 // @version      0.2
 // @author       dermv
 // @homepageURL  https://github.com/dermv/slitherify
-// @downloadURL  https://raw.githubusercontent.com/dermv/slitherify/main/main.js
-// @updateURL    https://raw.githubusercontent.com/dermv/slitherify/main/main.js
+// @downloadURL  https://raw.githubusercontent.com/dermv/slitherify/main/slitherify.user.js
+// @updateURL    https://raw.githubusercontent.com/dermv/slitherify/main/slitherify.user.js
 // ==/UserScript==
 
 
